@@ -101,7 +101,7 @@ svg {
 
 #header {
   background-size: 100%;
-  background-image: url("../assets/pexels-ena-marinkovic-5843609.jpg");
+  background-image: url("/static/pexels-ena-marinkovic-5843609.jpg");
   background-repeat: no-repeat, no-repeat;
   background-size: cover;
   align-items: center;
