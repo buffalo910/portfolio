@@ -21,12 +21,12 @@
 </template>
 
 <script>
-import assetsImage1 from "@/assets/pexels-ena-marinkovic-5843609.jpg"
+import path from "@/assets/pexels-ena-marinkovic-5843609.jpg"
 export default {
   data() {
     return {
       scrollY: 0,
-      imageUrl: "background-image: url(" + assetsImage1 + ");",
+      imageUrl: "background-image: url(" + path + ");",
     }
   },
   mounted() {
