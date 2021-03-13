@@ -17,14 +17,20 @@
     <header id="header">
       <h1 class="title"><span class="title-text">My Portfolio</span></h1>
     </header>
+    {{ imageUrl1 }}
+    {{ imageUrl1 }}
   </div>
 </template>
 
 <script>
+import assetsImage1 from "@/assets/pexels-ena-marinkovic-5843609.jpg"
+import assetsImage2 from "../assets/pexels-ena-marinkovic-5843609.jpg"
 export default {
   data() {
     return {
-      scrollY: 0
+      scrollY: 0,
+      imageUrl1: assetsImage1,
+      imageUrl2: assetsImage2
     }
   },
   mounted() {
@@ -101,7 +107,7 @@ svg {
 
 #header {
   background-size: 100%;
-  background-image: url("/img/pexels-ena-marinkovic-5843609.jpg");
+  background-image: url("../assets/pexels-ena-marinkovic-5843609.jpg");
   background-repeat: no-repeat, no-repeat;
   background-size: cover;
   align-items: center;

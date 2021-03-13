@@ -8,13 +8,11 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import smoothScroll from 'vue-smoothscroll'
-import path from '@/assets/pexels-ena-marinkovic-5843609.jpg'
 
 library.add(fas, far);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.config.productionTip = false
 Vue.use(smoothScroll)
-Vue.use(path)
 
 /* eslint-disable no-new */
 new Vue({
