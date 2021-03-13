@@ -14,22 +14,19 @@
         <span class="menu-text-span"><font-awesome-icon :icon="['fas', 'id-card']" />PROFILE</span>
       </p>
     </div>
-    <header id="header" v-bind:style=imageUrl1>
+    <header id="header" v-bind:style=imageUrl>
       <h1 class="title"><span class="title-text">My Portfolio</span></h1>
     </header>
-    <img src="@/assets/pexels-ena-marinkovic-5843609.jpg"></img>
   </div>
 </template>
 
 <script>
 import assetsImage1 from "@/assets/pexels-ena-marinkovic-5843609.jpg"
-import assetsImage2 from "../assets/pexels-ena-marinkovic-5843609.jpg"
 export default {
   data() {
     return {
       scrollY: 0,
-      imageUrl1: "background-image: url(" + assetsImage1 + ");",
-      imageUrl2: assetsImage2
+      imageUrl: "background-image: url(" + assetsImage1 + ");",
     }
   },
   mounted() {
