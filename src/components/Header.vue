@@ -127,16 +127,19 @@ svg {
 }
 
 @media (min-width: 320px) {
+  .menu-text { font-size: 14px; margin-left: 20px; }
   #header { height: 280px; }
   .title { font-size: 34px; }
 }
 
 @media (min-width: 800px) {
+  .menu-text { font-size: 20px; }
   #header { height: 360px; }
   .title { font-size: 48px; }
 }
 
 @media (min-width: 1200px) {
+  .menu-text { font-size: 22px; }
   #header { height: 460px; }
   .title { font-size: 84px; }
 }

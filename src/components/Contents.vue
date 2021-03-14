@@ -293,11 +293,11 @@
         <div class="contents-inner">
           <p class="text"><br>
             これまでずっと業務システムに携わってきた私ですが、最近思うことがあります。それは・・・<br>
-            「業務システムって進化がほぼなくない！？」ということです。使用している技術や見た目なんかもそうです。<br>
+            「業務システムって進化がほぼなくない！？」ということです。使用している技術や見た目も同様です。<br>
             巷には新しい技術やフレームワーク、そしてライブラリなどが気づかないうちにどんどん増えてきています。最近ではVueやAngularなんかでしょうか。<br>
             業務システムの領域では企業活動が止まらないよう、安定稼働が求められます。従って、こなれた技術を適用しますし、また、そうするべきとも思います。<br>
-            ですが、エンジニアですから、新しいものに興味を持ち、どんなものか使ってみたいを思うのは私だけでしょうか。<br>
-            技術のトレンドは移り変わっていきますので、すべてに追従すのは困難ですが、興味を失ったらエンジニア人生も終わりかなと思う今日この頃でした。
+            ですが、エンジニアですから、新しいものに興味を持ち、どんなものか使ってみたいと思うのは私だけでしょうか。<br>
+            技術のトレンドは移り変わっていきますので、すべてに追従すのは困難ですが、興味を失ったらエンジニア人生も終わりかなと思うのです。
           </p>
         </div>
       </div>
@@ -321,11 +321,13 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 .contents-box {
   width: 100%;
   margin-top: 1em;
+  position: relative;
 }
 
 .contents-inner {
   width: 70%;
   margin: 0 auto;
+  position: relative;
 }
 
 .contents-title {
@@ -344,7 +346,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 .content-work-canvas {
   position: relative;
-  margin-left: 15px;
 }
 
 figure {
