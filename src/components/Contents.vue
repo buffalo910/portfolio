@@ -45,7 +45,7 @@
             <img class="work-image" src="../assets/pexels-pixabay-162568.jpg" alt></img>
             <figcaption class="caption">
               <p class="text bold">自動配送システム</p>
-              <p class="overview">燃料を拠点から各配送先へ配送する際に、最適な配送ルート選択するWebシステムを構築。</p>
+              <p class="overview">燃料などを拠点から各配送先へ配送する際に、最適な配送ルート選択するWebシステムを構築。</p>
               <div class="env-box">
                 <p class="environment-m">wondows</p>
                 <p class="environment-m">java</p>
@@ -58,7 +58,7 @@
             <img class="work-image" src="../assets/pexels-skitterphoto-349749.jpg" alt></img>
             <figcaption class="caption">
               <p class="text bold">見積もりシステム</p>
-              <p class="overview">見積もりシステム。最適な製品の組み合わせや構成を抽出し、その価格の見積もりを行うシステムを構築。</p>
+              <p class="overview">見積もりシステム。各商材の最適な製品の組み合わせや構成を抽出し、その価格の見積もりを行うwebシステムを構築。</p>
               <div class="env-box">
                 <p class="environment-m">wondows</p>
                 <p class="environment-m">VB.NET</p>
@@ -73,7 +73,7 @@
             <img class="work-image" src="../assets/pexels-karolina-grabowska-4475524.jpg" alt></img>
             <figcaption class="caption">
               <p class="text bold">人事給与システム</p>
-              <p class="overview">既存となる人事給与システム及び共済システムのコンバージョンを実施。</p>
+              <p class="overview">既存の人事給与・共催システムを新システムへのコンバージョンを実施。</p>
               <div class="env-box">
                 <p class="environment-m">windows</p>
                 <p class="environment-m">VB.NET</p>
@@ -96,8 +96,8 @@
           <figure class="card">
             <img class="work-image" src="../assets/pexels-artem-beliaikin-994523.jpg" alt></img>
             <figcaption class="caption">
-              <p class="text bold">アパレル・小売業界向け業務システム</p>
-              <p class="overview">既存システムの新バージョンとなる、基幹システムのフロントエンドを開発。</p>
+              <p class="text bold">アパレルなどの小売業界向け基幹業務システム</p>
+              <p class="overview">既存システムの新バージョンとなる、基幹システム。バックエンドとSOAPにより通信を行うフロントエンド側を開発。</p>
               <div class="env-box">
                 <p class="environment-m">windows</p>
                 <p class="environment-m">C#.net</p>
@@ -110,14 +110,14 @@
             <img class="work-image" src="../assets/pexels-nout-gons-378570.jpg" alt></img>
             <figcaption class="caption">
               <p class="text bold">フィールド業務向け基幹システム</p>
-              <p class="overview">フィールド業務担当者の作業の進捗状況を外出先から登録、管理するモバイル端末向けシステムの要件定義を実施。</p>
+              <p class="overview">社外での作業進捗状況を外出先からでも登録ができる、モバイル端末向けシステムの要件定義を実施。</p>
             </figcaption>
           </figure>
           <figure class="card">
             <img class="work-image" src="../assets/pexels-steve-johnson-861414.jpg" alt></img>
             <figcaption class="caption">
               <p class="text bold">水道検針・料金収納システム</p>
-              <p class="overview">検針・収納システム（パッケージソフト）について、各水道局の業務にあわせたカスタマイズを実施。</p>
+              <p class="overview">検針から収納までを管理するパッケージソフトを各自治体の業務にあわせてカスタマイズを実施。</p>
               <div class="env-box">
                 <p class="environment-m">windows</p>
                 <p class="environment-m">Delphi</p>
@@ -128,8 +128,8 @@
           <figure class="card">
             <img class="work-image" src="../assets/pexels-ylanite-koppens-796600.jpg" alt></img>
             <figcaption class="caption">
-              <p class="text bold">名簿調整システム</p>
-              <p class="overview">業務実施候補者の名簿を調整し、候補者から業務実施者の選出、および選任手続きまでを管理するシステムを構築。</p>
+              <p class="text bold">実務遂行対象者の選出システム</p>
+              <p class="overview">実務を実施する候補者の名簿を調整し、その候補者の中から実施対象者の選出と選任の手続きまでを管理するwebシステムを構築。</p>
               <div class="env-box">
                 <p class="environment-m">windows</p>
                 <p class="environment-m">java</p>
@@ -155,7 +155,7 @@
             <img class="work-image" src="../assets/pexels-photomix-company-95916.jpg" alt></img>
             <figcaption class="caption">
               <p class="text bold">リバースエンジニアリングツール開発</p>
-              <p class="overview">メインフレーム上に構築されたシステムのプログラムを解析し、構造をビジュアル化するWebシステムのカスタマイズを実施</p>
+              <p class="overview">メインフレーム上に構築されたシステムのソースコードを解析し、構造をビジュアル化するWebシステムのカスタマイズを実施</p>
               <div class="env-box">
                 <p class="environment-m">UNIX</p>
                 <p class="environment-m">LINUX</p>
@@ -285,6 +285,23 @@
         </div>
       </div>
     </section>
+    <section id="my-motto">
+      <div class="contents-title">
+        <span>About Recently</span>
+      </div>
+      <div class="contents-box">
+        <div class="contents-inner">
+          <p class="text"><br>
+            これまでずっと業務システムに携わってきた私ですが、最近思うことがあります。それは・・・<br>
+            「業務システムって進化がほぼなくない！？」ということです。使用している技術や見た目なんかもそうです。<br>
+            巷には新しい技術やフレームワーク、そしてライブラリなどが気づかないうちにどんどん増えてきています。最近ではVueやAngularなんかでしょうか。<br>
+            業務システムの領域では企業活動が止まらないよう、安定稼働が求められます。従って、こなれた技術を適用しますし、また、そうするべきとも思います。<br>
+            ですが、エンジニアですから、新しいものに興味を持ち、どんなものか使ってみたいを思うのは私だけでしょうか。<br>
+            技術のトレンドは移り変わっていきますので、すべてに追従すのは困難ですが、興味を失ったらエンジニア人生も終わりかなと思う今日この頃でした。
+          </p>
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -294,6 +311,7 @@
 
 main {
   margin-top: 80px;
+  min-width: 320px;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -344,6 +362,7 @@ figure {
   border: 1px solid rgba(0,0,0,.125);
   overflow: hidden;
   border-radius: .25rem;
+  transition: 0.5s;
 }
 
 @media (min-width: 320px) {
@@ -354,23 +373,22 @@ figure {
   figure { margin-left: 5px; width: 45%; }
 }
 
-.work-image {
-  height: 300px;
-}
-
 .caption {
   position: relative;
 }
 
 @media (min-width: 320px) {
-  .caption { height: 190px; }
+  .work-image { height: 220px; }
+  .caption { height: 200px; }
 }
 
 @media (min-width: 960px) {
+  .work-image { height: 260px; }
   .caption { height: 200px; }
 }
 
 @media (min-width: 1200px) {
+  .work-image { height: 300px; }
   .caption { height: 160px; }
 }
 
@@ -392,6 +410,7 @@ figure {
 .env-box {
   position: absolute;
   bottom: 2px;
+  transition: 0.5s;
 }
 
 .environment-m, .environment-l {
@@ -433,6 +452,7 @@ figure {
   border-radius: 10px 10px 10px 10px;
   background-color: #FFF;
   display: inline-block;
+  transition: 0.5s;
 }
 
 
@@ -463,6 +483,4 @@ figure {
   width: 55%;
   line-height: 2.5em;
 }
-
-
 </style>
