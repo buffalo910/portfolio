@@ -127,7 +127,7 @@ svg {
 }
 
 @media (min-width: 320px) {
-  .menu-text { font-size: 14px; margin-left: 20px; }
+  .menu-text { font-size: 10px; margin-left: 20px; }
   #header { height: 280px; }
   .title { font-size: 34px; }
 }

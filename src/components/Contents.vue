@@ -345,12 +345,14 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 .content-work-canvas {
+  max-width: 99%;
   position: relative;
+  margin: 0 auto;
 }
 
 figure {
   float: left;
-  width: 45%;
+  width: 44%;
   margin-bottom: 10px;
   padding: 5px 10px 5px 10px;
   display: flex;
