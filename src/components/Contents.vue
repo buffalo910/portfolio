@@ -25,6 +25,7 @@
       </div>
       <div class="contents-box">
         <div class="contents-inner">
+        <div class="content-work-canvas">
           <figure class="card">
             <img class="work-image" src="../assets/pexels-shane-aldendorff-924675.jpg" alt></img>
             <figcaption class="caption">
@@ -180,6 +181,7 @@
             </figcaption>
           </figure>
         </div>
+        </div>
       </div>
     </section>
     <div id="tag-skills" style="height: 30px;"></div>
@@ -189,65 +191,79 @@
       </div>
       <div class="contents-box">
         <div class="contents-inner">
-          <div class="skill-canvas">
-            <p class="skill">
-              <span>Java</span><span>★★★★☆</span>
-            </p>
-          </div>
-          <div class="skill-canvas">
-            <p class="skill">
-              <span>C#.NET</span><span>★★★☆☆</span>
-            </p>
-          </div>
-          <div class="skill-canvas">
-            <p class="skill">
-              <span>Go</span><span>★★☆☆☆</span>
-            </p>
-          </div>
-          <div class="skill-canvas">
-            <p class="skill">
-              <span>VB.NET</span><span>★★★★☆</span>
-            </p>
-          </div>
-          <div class="skill-canvas">
-            <p class="skill">
-              <span>C</span><span>★★★★☆</span>
-            </p>
-          </div>
-          <div class="skill-canvas">
-            <p class="skill">
-              <span>Typescript</span><span>★★★☆☆</span>
-            </p>
-          </div>
-          <div class="skill-canvas">
-            <p class="skill">
-              <span>jQuery</span><span>★★★★☆</span>
-            </p>
-          </div>
-          <div class="skill-canvas">
-            <p class="skill">
-              <span>javascript</span><span>★★★☆☆</span>
-            </p>
-          </div>
-          <div class="skill-canvas">
-            <p class="skill">
-              <span>Angular CLI</span><span>★★☆☆☆</span>
-            </p>
-          </div>
-          <div class="skill-canvas">
-            <p class="skill">
-              <span>SQL</span><span>★★★★☆</span>
-            </p>
-          </div>
-          <div class="skill-canvas">
-            <p class="skill">
-              <span>Git</span><span>★★★☆☆</span>
-            </p>
-          </div>
-          <div class="skill-canvas">
-            <p class="skill">
-              <span>Agile</span><span>★★☆☆☆</span>
-            </p>
+          <div class="contents-inner-skill">
+            <div class="skill-canvas">
+              <ul class="skill">
+                <li>Java</li>
+                <li class="star">★★★★☆</li>
+              </ul>
+            </div>
+            <div class="skill-canvas">
+              <ul class="skill">
+                <li>C#.NET</li>
+                <li class="star">★★★☆☆</li>
+              </ul>
+            </div>
+            <div class="skill-canvas">
+              <ul class="skill">
+                <li>Go</li>
+                <li class="star">★★☆☆☆</li>
+              </ul>
+            </div>
+            <div class="skill-canvas">
+              <ul class="skill">
+                <li>VB.NET</li>
+                <li class="star">★★★★☆</li>
+              </ul>
+            </div>
+            <div class="skill-canvas">
+              <ul class="skill">
+                <li>C</li>
+                <li class="star">★★★★☆</li>
+              </ul>
+            </div>
+            <div class="skill-canvas">
+              <ul class="skill">
+                <li>Typescript</li>
+                <li class="star">★★★☆☆</li>
+              </ul>
+            </div>
+            <div class="skill-canvas">
+              <ul class="skill">
+                <li>jQuery</li>
+                <li class="star">★★★★☆</li>
+              </ul>
+            </div>
+            <div class="skill-canvas">
+              <ul class="skill">
+                <li>javascript</li>
+                <li class="star">★★★☆☆</li>
+              </ul>
+            </div>
+            <div class="skill-canvas">
+              <ul class="skill">
+                <li>Angular CLI</li>
+                <li class="star">★★☆☆☆</li>
+              </ul>
+            </div>
+            <div class="skill-canvas">
+              <ul class="skill">
+                <li>SQL</li>
+                <li class="star">★★★★☆</li>
+              </ul>
+            </div>
+            <div class="skill-canvas">
+              <ul class="skill">
+                <li>Git</li>
+                <li class="star">★★★☆☆</li>
+              </ul>
+            </div>
+            <div class="skill-canvas">
+              <ul class="skill">
+                <li>Agile</li>
+                <li class="star">★★☆☆☆</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -291,8 +307,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 .contents-inner {
   width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .contents-title {
@@ -307,6 +322,11 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   font-family: 'Kosugi Maru', sans-serif;
   font-size: 120%;
   line-height: 1.75;
+}
+
+.content-work-canvas {
+  position: relative;
+  margin-left: 15px;
 }
 
 figure {
@@ -343,15 +363,15 @@ figure {
 }
 
 @media (min-width: 320px) {
-  .caption { height: 140px; }
+  .caption { height: 190px; }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 960px) {
   .caption { height: 200px; }
 }
 
-@media (min-width: 1024px) {
-  .caption { height: 140px; }
+@media (min-width: 1200px) {
+  .caption { height: 160px; }
 }
 
 .overview {
@@ -394,27 +414,55 @@ figure {
   width: 76px;
 }
 
-.skill-canvas {
-  float: left;
+.contents-inner-skill {
+  max-width: 87%;
+  margin: 0 auto;
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-.skill {
-  display: table;
-  font-family: 'Oswald', sans-serif;
-  font-size: 100%;
-  margin-left: 8px;
-  width: 240px;
+.skill-canvas {
+  position: relative;
+  margin: 5px;
+  width: 31%;
   height: 40px;
   border: 2px solid #f0f0f0;
   border-radius: 10px 10px 10px 10px;
   background-color: #FFF;
-  text-align: center;
-  line-height: 1em;
+  display: inline-block;
 }
 
-.skill span {
-  display: table-cell;
-  width: 50%;
-  vertical-align: middle;
+
+@media (min-width: 320px) {
+  .skill-canvas { width: 90%; }
 }
+
+@media (min-width: 960px) {
+  .skill-canvas { width: 45%; }
+}
+
+@media (min-width: 1200px) {
+  .skill-canvas { width: 31%; }
+}
+
+.skill {
+  font-family: 'Oswald', sans-serif;
+  font-size: 100%;
+  text-align: center;
+  line-height: 1em;
+  display: table;
+  width: 100%;
+}
+
+.skill li {
+  position: relative;
+  display: table-cell;
+  width: 55%;
+  line-height: 2.5em;
+}
+
+
 </style>

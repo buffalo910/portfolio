@@ -66,6 +66,7 @@ export default {
   height: 60px;
   opacity: 0.85;
   transition: 0.5s;
+  z-index: 9999;
 }
 .menu-color-0 {
   background-color: #000;
